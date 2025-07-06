@@ -46,7 +46,11 @@
 ## Understanding VPN Encryption & Privacy Features
 * VPN stands for Virtual Private Network which is a tunnel which will route the traffic through it's own server in order to encrypt the communication between the server and the client 
 * VPN will use series of encryption which is advanced and high standards (AES) which will encrypt the entire communication
-* Since every packet is encrypted it is secure from attacks which might leak credentials  
+When you connect to a VPN, it encrypts your internet traffic before it leaves your device. This encryption is a type of encoding that jumbles your data so that anyone who tries to intercept it can’t read it.
+* The encrypted data is sent through a VPN tunnel to the VPN server. The tunnel ensures that your data is safe from hackers, even on public networks like Wi-Fi in cafes or airports.
+* Once your data reaches the VPN server, it is decrypted, and the server forwards your request to the final destination.
+* When the website or service you're accessing responds, That response is sent back to the VPN server. The VPN server then encrypts the data again before sending it back through the VPN tunnel to your device.
+
 
 # Task 8
 ## Summarizing Benefits & Limitations
@@ -60,3 +64,4 @@
 * Limited Bandwidth : VPN Encrypts the entire communication but it might slow down your internet connection which will limit the bandwidth of network 
 * Identity Disclosure : If VPN server is compromised then the entire communication will be traced by the entity that has access to that server
 * Vulnerability : If VPN software has some vulnerability then it might be susceptible to attacks thus compromise of entire communication
+* Legal Issues and Censorship : Some Countries Restrict the use of VPN and some even ban them
